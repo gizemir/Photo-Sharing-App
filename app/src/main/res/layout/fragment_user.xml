@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.UserFragment">
+
+    <EditText
+        android:id="@+id/editTextEmailText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPasswordText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmailText" />
+
+    <Button
+        android:id="@+id/buttonSignin"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:onClick="signIn"
+        android:text="Sign In"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPasswordText"
+        app:layout_constraintTop_toTopOf="@+id/buttonSignup" />
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="65dp"
+        android:onClick="signUp"
+        android:text="Sign Up"
+        app:layout_constraintStart_toStartOf="@+id/editTextPasswordText"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPasswordText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

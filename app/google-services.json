@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661609118903",
+    "project_id": "photosharingapp1710",
+    "storage_bucket": "photosharingapp1710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661609118903:android:2af87f32e185b4a0206132",
+        "android_client_info": {
+          "package_name": "com.gizemir.photosharingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgbHgUb-HLac1t9eSimx7bXB_t_tcRAVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
